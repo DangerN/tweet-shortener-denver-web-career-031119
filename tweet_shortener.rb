@@ -15,7 +15,7 @@ end
 
 def word_substituter(tweet_one)
   new_tweet = tweet_one.split(' ')
-  binding.pry
+  #binding.pry
   new_tweet.each.with_index do |word, i|
     if dictionary.keys.include?(word)
       new_tweet[i] = dictionary[word]

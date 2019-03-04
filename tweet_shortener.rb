@@ -42,5 +42,6 @@ def selective_tweet_shortener(tweet_one)
 end
 
 def shortened_tweet_truncator(tweet_three)
+  if
 end
 
